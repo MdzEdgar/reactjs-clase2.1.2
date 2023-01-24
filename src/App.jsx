@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {
-        isShowText ? <h1>Verdadero</h1> : <h1>Falso</h1>
+        isShowText && <h1>Verdadero</h1>
       }
       <button onClick={handleClick}>Change</button>
     </div>
